@@ -31,7 +31,6 @@ def vertx_start
 end
 
 # On stop de-register from Consul
-# Yeah so apparently the synchonous vertx_stop does not block
 def vertx_stop_async stop_future
   @consul_client.request(:GET, "/v1/agent/service/deregister/foo_service") { |response|
     if response.status_code() == 200
