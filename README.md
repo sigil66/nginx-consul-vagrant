@@ -20,7 +20,21 @@ git clone https://github.com/sigil66/nginx-consul-vagrant.git
 cd nginx-consul-vagrant
 vagrant up
 ```
+
+*Usage*
+After vagrant up:
+- visit http://nginx-consul-lab.local
+- review /etc/nginx/sites-available/default
+- review /etc/nginx/lua/consul/balancer.rb
+
+*Automation*
+This setup ties together the following projects:
+- https://github.com/sigil66/openresty-xenial-package
+- https://github.com/sigil66/oracle-java
+- https://github.com/sigil66/apt.sigil66.com
+- https://github.com/sigil66/vertx-package
+- https://github.com/sigil66/sigil66-cookbook
+- https://github.com/sigil66/nginx-consul-cookbook
+
 *Issues*
-
-- There appears to be some screwy interaction with the berks command and vagrant-berkshelf with some ruby setups (investigating)
-
+- There appears to be some strange interaction with the berks command and vagrant-berkshelf that mangles the GEM_PATH for some ruby setups (investigating)
