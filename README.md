@@ -30,7 +30,7 @@ After vagrant up:
 - to get the example services going:
   - `vagrant ssh`
   - `vertx start /vagrant/vertx-scripts/foo_service.rb`
-  - `vertx stop /vagrant/vertx-scripts/foo_service.rb`
+  - `vertx start /vagrant/vertx-scripts/bar_service.rb`
   - wait 20ish seconds and check the endpoints in your browser:
     - http://nginx-consul-lab.local/somefoo
     - http://nginx-consul-lab.local/somebar
