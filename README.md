@@ -22,6 +22,7 @@ vagrant up
 ```
 
 *Usage*
+
 After vagrant up:
 - visit http://nginx-consul-lab.local
 - visit http://nginx-consul-lab.local:8500
@@ -39,6 +40,7 @@ After vagrant up:
   - observe service deregistration
 
 *Automation*
+
 This setup ties together the following projects:
 - https://github.com/sigil66/openresty-xenial-package
 - https://github.com/sigil66/oracle-java
