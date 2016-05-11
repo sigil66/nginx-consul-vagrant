@@ -20,4 +20,7 @@ git clone https://github.com/sigil66/nginx-consul-vagrant.git
 cd nginx-consul-vagrant
 vagrant up
 ```
+*Issues*
+
+- There appears to be some screwy interaction with the berks command and vagrant-berkshelf with some ruby setups (investigating)
 
