@@ -1,7 +1,7 @@
 # Quick example bar service
 # The pattern here is to register/deregister the consul agent when I come and go
 # A production service would also register it's health endpoint and would not be
-# written in ruby. It might choose to do something meaninful as well.
+# written in ruby. It might choose to do something meaninigful as well.
 
 require 'json'
 
