@@ -11,7 +11,7 @@ Vagrant.configure(2) do |config|
 
   config.berkshelf.enabled = true
   config.vm.provision :chef_solo do |chef|
-    chef.version = '12.10.40'
+    chef.channel = 'stable'
     chef.run_list = [
       'recipe[nginx-consul::default]'
     ]

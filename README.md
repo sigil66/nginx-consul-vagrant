@@ -5,7 +5,7 @@ This is a Vagrant setup that will download, install, and configure the lab, allo
 
 #### Requirements
 
-- Vagrant 1.7.4+
+- Vagrant 1.8.4+
 - Probably OSX (untested on other platforms)
 - Probably VMWare (untested on Virtualbox)
 
